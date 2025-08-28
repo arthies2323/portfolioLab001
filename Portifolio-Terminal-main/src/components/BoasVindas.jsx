@@ -9,9 +9,9 @@ const BoasVindas = () => {
     <div className="welcome-container">
       <TypeAnimation
         sequence={[
-          'João Vítor Santana Lopes',
+          'Arthur Henrique Santana Pedra',
           1000,
-          'João Vítor Santana Lopes - Engenheiro de Software',
+          'Arthur Henrique Santana Pedra - Engenheiro de Software',
           2000,
         ]}
         wrapper="h1"
@@ -23,12 +23,12 @@ const BoasVindas = () => {
       <div className="static-welcome">
         <p className="welcome-title">$ Bem-vindo ao meu Portfólio</p>
         <hr className="divider" />
-        <p>Um desenvolvedor em formação, apaixonado por criar soluções tecnológicas.</p>
+        <p>Um Engenheiro de Software em formação, apaixonado por criar soluções tecnológicas.</p>
         
         <ul className="info-list">
           <li>
             <IoFlash className="icon" style={{ color: '#f3d956' }} />
-            Engenharia de Software | Desenvolvimento Full Stack
+            Engenharia de Software | Desenvolvimento | Testes | Cloud 
           </li>
           <li>
             <IoLocationSharp className="icon" style={{ color: '#ff6b6b' }} />
@@ -41,7 +41,7 @@ const BoasVindas = () => {
         </ul>
         
         <p className="navegue-text">
-          Digite `ajuda` para conhecer mais sobre os comandos.
+          Digite `ajuda | help` para conhecer mais sobre os comandos.
         </p>
       </div>
     </div>

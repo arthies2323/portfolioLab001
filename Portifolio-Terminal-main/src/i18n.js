@@ -9,9 +9,9 @@ const resources = {
   en: {
     translation: {
       "sobre": {
-        "nome": "My Name",
-        "cargo": "Frontend Developer & UI/UX Enthusiast",
-        "biografia": "Hello! I'm a developer focused on creating fluid and impactful digital experiences. With a solid foundation in modern frontend technologies, I always seek the union of clean code, performance, and intuitive design. I believe the best interface is one that becomes invisible, allowing the user to achieve their goals naturally and pleasantly.",
+        "nome": "Arthur",
+        "cargo": "To Be Software Engineer",
+        "biografia": "Hello! I am a Software Enginnering Student, and a Cloud Platform Engineering Intern. I aspire to be a great professional one day!",
         "titulo_skills": "Main Skills:"
       }
     }
@@ -20,9 +20,9 @@ const resources = {
   pt: {
     translation: {
       "sobre": {
-        "nome": "Meu Nome",
-        "cargo": "Desenvolvedor Frontend & Apaixonado por UI/UX",
-        "biografia": "Olá! Sou um desenvolvedor focado em criar experiências digitais fluidas e impactantes. Com uma base sólida em tecnologias modernas de frontend, busco sempre a união entre código limpo, performance e um design intuitivo. Acredito que a melhor interface é aquela que se torna invisível, permitindo que o usuário atinja seus objetivos de forma natural e agradável.",
+        "nome": "Arthur",
+        "cargo": "Futuro Engenheiro de Software",
+        "biografia": "Olá! Sou um Estudante de Engenharia de Software, e um estagiário em Engenharia de plataformas de Cloud. Minha meta é um dia ser um excelente profissional.",
         "titulo_skills": "Principais Habilidades:"
       }
     }

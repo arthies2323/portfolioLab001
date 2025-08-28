@@ -14,7 +14,7 @@ const SobreMim = () => {
   return (
     <div className="sobre-container" style={{ padding: '0 1.5rem' }}>
       <div className="avatar-container">
-        <img src="/avatar.jpg" alt="Avatar" className="avatar-image" />
+        <img src="/me.jpg" alt="Avatar" className="avatar-image" />
       </div>
       <div className="info-container">
         {/* 3. Substitua o texto fixo pela função t() com a chave da tradução */}
