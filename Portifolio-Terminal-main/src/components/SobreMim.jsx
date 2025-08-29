@@ -9,7 +9,7 @@ const SobreMim = () => {
   // 2. Inicialize o hook para ter acesso à função 't' (de "translate")
   const { t } = useTranslation();
 
-  const skills = ['React', 'TypeScript', 'Node.js', 'Next.js', 'Design Systems', 'Figma', 'UX/UI'];
+  const skills = ['Kubernetes', 'Docker', 'Jenkins', 'Ansible', 'Python', 'QA'];
 
   return (
     <div className="sobre-container" style={{ padding: '0 1.5rem' }}>
