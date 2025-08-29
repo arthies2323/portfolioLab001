@@ -1,12 +1,9 @@
-# React + Vite
+Lab001-Portf-lio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio criado durante a disciplina de Laboratório de Desenvolvimento de Software
 
-Currently, two official plugins are available:
+Link de acesso : https://portifolio-terminal-main.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias Utilizadas: Inicialmente, foram utilizados JS,HTML e CSS. Posteriormente o projeto evoluiu para usar React JSX.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instruções de uso: O projeto simula um terminal, e dentro dele, ao digitar determinados comandos o usuário tem acesso às páginas correspondentes à experiência e estudos, por exemplo. O uso é simples, por simular um terminal, com inputs específicos (Indicados dentro do site) trazendo os resultados desejados de maneira intuitiva.
