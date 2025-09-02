@@ -1,6 +1,7 @@
+
 Portfólio criado durante a disciplina de Laboratório de Desenvolvimento de Software
 
-Link de acesso :
+Link de acesso : https://meu-portfolio-arthur-pedra.vercel.app/
 
 Tecnologias Utilizadas: Inicialmente, foram utilizados JS,HTML e CSS. Posteriormente o projeto evoluiu para usar React JSX.
 
