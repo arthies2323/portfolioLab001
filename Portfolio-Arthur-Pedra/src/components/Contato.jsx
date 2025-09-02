@@ -1,12 +1,12 @@
 // src/components/Contato.jsx
 
 import React from 'react';
-// Usaremos a biblioteca de ícones que já está instalada
+
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
-import './Contato.css'; // Usaremos este arquivo para o estilo
+import './Contato.css'; 
 
 const Contato = () => {
-  // Lembre-se de substituir pelos seus links e e-mail reais
+ 
   const seuLinkedIn = "https://www.linkedin.com/in/arthur-pedra-111744218/";
   const seuGitHub = "https://github.com/arthies2323";
   const seuEmail = "arthurpedrasantana@gmail.com";
@@ -31,7 +31,7 @@ const Contato = () => {
           <span>GitHub</span>
         </a>
 
-        {/* E-mail (Solução com mailto:) */}
+        {/* E-mail*/}
         <a href={`mailto:${seuEmail}`} className="contato-item">
           <FaEnvelope className="contato-icone" />
           <span>{seuEmail}</span>

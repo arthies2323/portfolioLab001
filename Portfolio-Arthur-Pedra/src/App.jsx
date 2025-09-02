@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import Terminal, { ColorMode, TerminalInput, TerminalOutput } from 'react-terminal-ui';
 import './index.css';
 
-// Importa a lista de comandos do arquivo central
+
 import { commandList } from './commands';
 
-// Importação dos componentes de comando
+
 import Projetos from './components/Projetos';
 import Experiencias from './components/Experiencias';
 import SobreMim from './components/SobreMim';
@@ -15,21 +15,21 @@ import Ajuda from './components/Ajuda';
 import Contato from './components/Contato';
 import BoasVindas from './components/BoasVindas';
 
-// Importação de componentes da UI
+
 import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
-  // Função para gerar a mensagem de boas-vindas
+ 
   const getWelcomeMessage = () => <BoasVindas key="welcome" />;
 
-  // 2. O ESTADO INICIAL AGORA USA A NOVA MENSAGEM
+
   const [terminalLineData, setTerminalLineData] = useState([
     getWelcomeMessage()
   ]);
 
   function handleInput(input) {
     let newLines = [...terminalLineData];
-    // Adicionamos o prompt junto com o input para um visual mais autêntico
+   
     newLines.push(<TerminalInput key={`input-${newLines.length}`}>{myPrompt} {input}</TerminalInput>);
 
     const args = input.toLowerCase().trim().split(' ');
@@ -83,7 +83,7 @@ function App() {
     setTerminalLineData(newLines);
   }
 
-  // Corrigi o nome do prompt para "visitante" como você tinha pedido
+
   const myPrompt = "visitante@portfolio:~$";
 
   return (
